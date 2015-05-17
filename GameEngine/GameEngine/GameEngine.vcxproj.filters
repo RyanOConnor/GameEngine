@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{e331824e-cd88-420e-afc1-a3897e4d56ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7041e667-e284-4789-b945-e6b461b03ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects">
+      <UniqueIdentifier>{87fee69f-7c60-4e2a-8695-98fdb81814a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{8f1a2e67-77b8-4ca8-9e95-66cd5db45113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Creature">
+      <UniqueIdentifier>{14a2978c-df16-47d0-980e-968533ee214c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Objects\Treasure">
+      <UniqueIdentifier>{bf26dfee-058f-4caf-a585-4b529b04219a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ContentManager.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameConfiguration.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLGame.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="sfmlKeyboard.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterPlayerMenu.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBoard.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBoardRoom.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EnterPlayerScene.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstScene.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLabel.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerList.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>Game\Objects\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Treasure.cpp">
+      <Filter>Game\Objects\Treasure</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Game\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SFMLGame.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfiguration.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentManager.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="sfmlKeyboard.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterPlayerMenu.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoard.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="EnterPlayerScene.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstScene.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoardRoom.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLabel.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerList.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>Game\Objects\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="Treasure.h">
+      <Filter>Game\Objects\Treasure</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Game\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="smiley.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="sprite.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="anim.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="space.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="button.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="smallButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="typeField.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
